@@ -1,0 +1,171 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background: linear-gradient(135deg, #f3f4f7 0%, #e8eaf6 100%); */
+  background: #f6f8f8;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: 'Arial', sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+@media print {
+  .print-background {
+
+    background-image: url('/public/Certificate_mini.PNG') !important;
+    background-position: center !important;
+    background-size: cover !important;
+
+  }
+
+  .print-background1 {
+
+    background-image: url('/public/Capture.PNG') !important;
+    background-position: center !important;
+    background-size: cover !important;
+
+  }
+}
+
+.print-background {
+  /* background-image: url('/public/Certificate.png') !important;
+  background-position: center !important;
+  background-size: cover !important; */
+  width: 100%;
+
+
+}
+
+.Certificate {
+  background-image: url('/public/Certificate.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 6983;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  /* background-color: #f3f3f3; */
+  background: #f6f8f8;
+
+}
+
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #007bff;
+} */
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.pagination {
+  display: flex;
+
+  margin: 20px 0;
+}
+
+.pagination .page {
+  margin: 0 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+}
+
+.pagination .page.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.Image {
+
+  max-width: 100%;
+  margin-left: -250px;
+  height: 29vh;
+  width: 70%;
+
+  display: block;
+}
+
+.Profilees {
+  margin-top: -130px;
+  margin-left: -180px;
+  height: 29vh;
+  width: 150%;
+  display: block;
+}
+
+.application {
+  border: 1px solid rgb(255, 252, 252);
+  width: 100%;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 600 !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.pagination {
+  display: flex;
+
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.pagination li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+thead {
+  background-color: #007bff;
+}
+
+.pagination li.active a {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination li a:hover {
+  background-color: #f5f5f5;
+}
